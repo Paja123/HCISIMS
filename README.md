@@ -1,6 +1,6 @@
 Accommodation and Tour Organizing Desktop App
 
-This desktop application, developed using C# and .NET framework, is designed to organize accommodations and tours, with a user-friendly interface tailored for elderly users with weakened eyesight. This README provides an overview of the project, including its features, installation instructions, and other relevant information.
+This desktop application, developed using C# and .NET framework, is designed to organize accommodations and tours. This README provides an overview of the project, including its features, installation instructions, and other relevant information.
 Overview
 
 The Accommodation and Tour Organizing Desktop App is a comprehensive solution for managing accommodations and organizing tours. It features a user-friendly interface designed with usability in mind, especially for elderly users with weakened eyesight. The application aims to provide intuitive interactions and easy navigation for individuals with limited computer literacy.
@@ -16,7 +16,7 @@ Project Structure
 
   - Backend Development: I was responsible for developing the backend functionality of the application, with a focus on tour guide and all of his functionalities.
   - Tour Guide Interface: My role was also involved creating the user interface specifically tailored for tour guides.
-  - Collaboration: The rest of the application development was carried out by your team members.
+  - Collaboration: The rest of the application development was carried out by my team members.
 
 Getting Started
 
