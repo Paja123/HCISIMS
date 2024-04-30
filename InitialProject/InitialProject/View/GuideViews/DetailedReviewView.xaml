@@ -1,0 +1,158 @@
+﻿<Page x:Class="InitialProject.View.GuideViews.DetailedReviewView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:InitialProject.View.GuideViews"
+      mc:Ignorable="d" 
+      d:DesignHeight="768" d:DesignWidth="1024"
+      Background="White"
+      Title="DetailedReviewView" FontSize="40">
+
+    <Grid>
+        <Grid x:Name="MainContent">
+            <Grid.Style>
+                <Style>
+                    <Setter Property="TextBox.FontSize" Value="35"></Setter>
+                    <Setter Property="Label.FontSize" Value="35"></Setter>
+                </Style>
+            </Grid.Style>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="110"/>
+                <RowDefinition Height="Auto" MinHeight="28"/>
+                <RowDefinition Height="198.107"/>
+            </Grid.RowDefinitions>
+
+            <Grid Row="0" RenderTransformOrigin="0.732,0.604" >
+                <Button  Height="68" Width="160"  FontSize="60"  BorderThickness="3" BorderBrush="Black"
+                         HorizontalAlignment="Left" VerticalAlignment="Top"
+                         Background="#D07B26" Foreground="Black"
+                        
+                         Margin="10,10,0,0" Click="HamburgerButton_Click">
+                    <TextBlock Text="Meni" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+                </Button>
+                <Label Content="{Binding Path=BasicReview.TouristName}" HorizontalAlignment="Center" VerticalAlignment="Center"
+                       FontSize="50" FontWeight="Bold"></Label>
+            </Grid>
+            <Grid Row ="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <Grid Column="0" HorizontalAlignment="Left" Width="512">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Label Grid.Row="0" Content="Pridružio se na:"></Label>
+                    <TextBox Grid.Row ="1" BorderThickness="2" BorderBrush="Black"  Text="{Binding Path= BasicReview.ArrivalKeyPointName}" Margin="0,0,10,5"></TextBox>
+
+                    <Grid Grid.Row="1" Margin="0,48,0,50" Grid.RowSpan="2">
+                        <Grid.Style>
+                            <Style>
+                                <Setter Property="RowDefinition.Height" Value="Auto"></Setter>
+                                <Setter Property="TextBox.Height" Value="Auto"></Setter>
+                            </Style>
+                        </Grid.Style>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="299*"/>
+                            <ColumnDefinition Width="213*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="43*"/>
+                            <RowDefinition Height="40*"/>
+                            <RowDefinition Height="80*"/>
+                        </Grid.RowDefinitions>
+
+                        <Label Grid.Column="0" Grid.Row="0" Content="Znanje vodiča:" Margin="0,0,0,1"/>
+                        <TextBox Grid.Column="1" BorderThickness="2" BorderBrush="Black" Grid.Row="0" Text="{Binding BasicReview.Review.GuideKnowledge}" Margin="0,10,134,10"/>
+                        <Label Grid.Column="0" Grid.Row="1" Content="Jezik vodiča:" Margin="0,0,0,90" Grid.RowSpan="2"></Label>
+                        <TextBox Grid.Column="1" BorderThickness="2" BorderBrush="Black"  Grid.Row="1" Text="{Binding BasicReview.Review.GuideLanguage}" Margin="0,4,134,10"/>
+                        <Label Grid.Column="0" Grid.Row="2" Content="Zanimljivost ture:" Margin="0,1,0,90"/>
+                        <TextBox Grid.Column="1" BorderThickness="2" BorderBrush="Black"  Grid.Row="2" Text="{Binding BasicReview.Review.AmusementScore}" Margin="0,1,134,90"/>
+                    </Grid>
+                    <Button Grid.Column="0" Grid.Row ="2" Background="#389BE6" BorderThickness="3" BorderBrush="Black" Foreground="White"  Content="Vidi komentar"    Margin="46,234,208,44" Click="ShowComment"/>
+
+                </Grid>
+                <Grid Column="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Label Grid.Row="0" Content="Ključne tačke:" Margin="0,0,0,1"/>
+                    <Border Grid.Row="1" BorderThickness="2" BorderBrush="Black" Margin="0,0,30,0">
+                        <ScrollViewer> 
+                            <TextBlock   Grid.Row="1" x:Name="MyTextBlock"  Text="{Binding KeyPointNames }"></TextBlock>
+                        </ScrollViewer>
+                    </Border>
+                </Grid>
+
+            </Grid>
+
+
+            <Button Grid.Row ="2"   Background="#FF2E2E" Foreground="White" Height="48" Width="110" BorderThickness="3" BorderBrush="Black" Click="NavigateBack"
+                    HorizontalAlignment="Left" Margin="50,120,0,0">
+                <TextBlock Text="Nazad" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Button>
+
+            <Button Grid.Row ="2"   Background="Red" Foreground="White" Click="ReportGuest" BorderThickness="3" BorderBrush="Black"
+                    Height="48" Width="220" HorizontalAlignment="Right" Margin="0,120,110,0">
+                <TextBlock Text="Prijavi gosta!" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Button>
+
+        </Grid>
+        <!--<Grid x:Name="DimmedOverlay" Background="#80000000" Visibility="Collapsed" >
+        </Grid>-->
+        <Button x:Name="DimmedOverlay" Background="#80000000" Visibility="Collapsed" Click="DimmedOverlay_Click">
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="Button">
+                                <Border Background="{TemplateBinding Background}"
+                                    BorderBrush="{TemplateBinding BorderBrush}"
+                                    BorderThickness="{TemplateBinding BorderThickness}"
+                                    SnapsToDevicePixels="True">
+                                    <ContentPresenter HorizontalAlignment="Center"
+                                                  VerticalAlignment="Center"
+                                                  SnapsToDevicePixels="True" />
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Button.Style>
+        </Button>
+
+        <StackPanel x:Name="NavigationMenu" Orientation="Vertical" Visibility="Collapsed" Background="OrangeRed" Width="358" >
+
+            <StackPanel.Style>
+                <Style>
+                    <Setter Property="Button.HorizontalAlignment" Value="Left"></Setter>
+                    <Setter Property="Button.HorizontalContentAlignment" Value="Left"></Setter>
+                    <Setter Property="Button.Width" Value="Auto"></Setter>
+                    <Setter Property="Button.FontSize" Value="35"></Setter>
+                </Style>
+            </StackPanel.Style>
+            <Label Grid.Row="0" Content="OvoOvo" FontSize="40" HorizontalAlignment="Center" FontWeight="Bold"/>
+            <Button Content="Današnje ture" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Height="59" Width="369" Click="ShowTodayTours"/>
+            <Button Content="Moje aktivne ture" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Width="372" Click="ShowActiveTours"/>
+            <Button Content="Istorija" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Width="368" Click="ShowGuideHistory"/>
+            <Button Content="Kreirajte turu" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Width="368" Click="ShowFirstCreateTourView"/>
+            <Button Content="Super vodič" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Width="368" Click="ShowSuperVodic" />
+            <Button Content="Zahtevi za ture" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Width="368" Click="ShowTourRequests" />
+            <Button Content="" IsHitTestVisible="False" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Width="368"  />
+            <Button Content="" IsHitTestVisible="False" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Width="368" Click="ShowSuperVodic" />
+            <Button Content="Odjavi se" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Width="368" Click="SignOut" />
+            <Button Content="" IsHitTestVisible="False" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Width="368"  />
+            <Button Content="" IsHitTestVisible="False" Visibility="Hidden" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Width="368" Click="ShowSuperVodic" />
+            <Button Content="DAJEM OTKAZ" Foreground="Red" FontWeight="Bold" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Width="368" Click="QuitJob" />
+
+        </StackPanel>
+
+    </Grid>
+
+</Page>

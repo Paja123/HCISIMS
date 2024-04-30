@@ -1,0 +1,148 @@
+﻿<Window x:Class="InitialProject.View.GuideViews.ComplexTourSpecificsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:InitialProject.View.GuideViews"
+        mc:Ignorable="d"
+        WindowStyle="None" 
+        WindowStartupLocation="CenterScreen"
+        Height="643" Width="863" FontSize="40">
+    <Grid Margin="0,20,0,0">
+        <Grid x:Name="MainContent">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Grid Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Label Grid.Column="0" Content="Izaberite turu: "/>
+
+            <ComboBox  Grid.Column="1"  Name="ComboBox1"  ItemsSource="{Binding Path=RequestCities}" Width="393" Height="54" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,10,0,0" SelectionChanged="ComboBox1_SelectionChanged">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Vertical">
+                            <TextBlock Text="{Binding}"></TextBlock>
+                        </StackPanel>
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+        </Grid>
+
+
+        <Grid Row="1" x:Name="DateRow" Visibility="Collapsed">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Label Grid.Column="0" Content="Izaberite datum: "/>
+            <Border Grid.Column="1" Width="279" Height="56" BorderThickness="2" BorderBrush="Black" HorizontalAlignment="Left" VerticalAlignment="Top" >
+                <DatePicker Grid.Column="1" x:Name="DatePicker1" Width="279" Height="54" />
+            </Border>
+        </Grid>
+
+        <Grid Row="2" x:Name="CountryAndDescriptionRow" Visibility="Collapsed">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Grid Column="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0" Content="Država"/>
+                <!--OVAKO BINDING <Label Content="{Binding Path=MiddleAgedCount}"  Margin="53,10,43,26" Grid.Column="1" FontSize="40" Grid.Row="1"/>
+-->
+                <Label Grid.Column="1" x:Name="Country" Width="280" HorizontalAlignment="Left"/>
+            </Grid>
+            <Grid Column="1" Margin="15,0,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0" Content="Opis:"/>
+                <!--OVAKO BINDING <Label Content="{Binding Path=MiddleAgedCount}"  Margin="53,10,43,26" Grid.Column="1" FontSize="40" Grid.Row="1"/>
+-->
+                <Button Grid.Column="1" Content="Pogledajte" Background="SkyBlue" Foreground="White" VerticalContentAlignment="Center" Margin="38,10,66,20" Click="Button_Click"/>
+            </Grid>
+
+        </Grid>
+        <Grid Row="3" x:Name="CityRow" Visibility="Collapsed">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Label Grid.Column="0" Content="Grad: "/>
+            <Label Grid.Column="1" x:Name="City" Width="400" HorizontalAlignment="Left" />
+        </Grid>
+
+        <Grid Row="4" x:Name="LanguageRow" Visibility="Collapsed">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Label Grid.Column="0" Content="Jezik: "/>
+            <Label Grid.Column="1" x:Name="Language"  Width="300" HorizontalAlignment="Left" />
+        </Grid>
+        <Grid Row="5" x:Name="GuestsRow" Visibility="Collapsed">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Label Grid.Column="0" Content="Broj gostiju: "/>
+            <Label Grid.Column="1" x:Name="GuestNumber"  Width="50" HorizontalAlignment="Left" />
+        </Grid>
+
+        <Grid Row="6" >
+                <Button x:Name="CancelButton"  Foreground="White" Background="Red" Height="48" Width="186"  Click="CloseWindow"
+                        HorizontalAlignment="Left" Margin="70,0,0,0" BorderThickness="3" BorderBrush="Black">
+                <TextBlock Text="Odustani" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+            </Button>
+            <Button x:Name="AcceptButton" Visibility="Collapsed"  Foreground="White" Background="Green" 
+                    Height="48" Width="188"  Click="AcceptRequest"
+                    BorderThickness="3" BorderBrush="Black" HorizontalAlignment="Right"
+                    Margin="0,0,70,0">
+                <TextBlock Text="Prihvati" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+            </Button>
+
+        </Grid>
+        </Grid>
+        <Button x:Name="DimmedOverlay1" Background="#80000000" Visibility="Collapsed" Click="DimmedOverlay_Click">
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="Button">
+                                <Border Background="{TemplateBinding Background}"
+                                        BorderBrush="{TemplateBinding BorderBrush}"
+                                        BorderThickness="{TemplateBinding BorderThickness}"
+                                        SnapsToDevicePixels="True">
+                                    <ContentPresenter HorizontalAlignment="Center"
+                                                      VerticalAlignment="Center"
+                                                      SnapsToDevicePixels="True" />
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Button.Style>
+        </Button>
+
+    </Grid>
+</Window>

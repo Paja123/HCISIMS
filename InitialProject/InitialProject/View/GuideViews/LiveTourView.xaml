@@ -1,0 +1,116 @@
+﻿<Page x:Class="InitialProject.View.GuideViews.LiveTourView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:InitialProject.View.GuideViews"
+      mc:Ignorable="d" 
+           Background="White"
+      d:DesignHeight="768" d:DesignWidth="1024" FontSize="40">
+
+        <Grid>
+            <Grid.Resources>
+            <Style TargetType="{x:Type DataGrid}" BasedOn="{StaticResource DataGridBorders}"/>
+                </Grid.Resources>
+            <Grid x:Name="MainContent">
+            <Grid.RowDefinitions>
+
+                <RowDefinition Height="110"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="100"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Grid Row="0" RenderTransformOrigin="0.732,0.604" >
+                <Button  Height="68" Width="160"  FontSize="60"  BorderThickness="3" BorderBrush="Black"
+                         HorizontalAlignment="Left" VerticalAlignment="Top"
+                         Background="#D07B26" Foreground="Black" IsHitTestVisible="False" Visibility="Collapsed"
+                        
+                         Margin="10,10,0,0" Click="HamburgerButton_Click">
+                    <TextBlock Text="Meni" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+                </Button>
+                <Label x:Name="Label" Content="{Binding Tour.Name}" HorizontalAlignment="Center" VerticalAlignment="Center"
+                   FontSize="60" FontWeight="Bold"></Label>
+
+            </Grid>
+            <DataGrid Grid.Row="1" VerticalScrollBarVisibility="Visible" BorderThickness="2" BorderBrush="Black" ItemsSource="{Binding keyPoints}"  AutoGenerateColumns="False" FontSize="40" Height="556"  Margin="10,0,61,0" >
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Ključna tačka" Binding="{Binding Name}" MinWidth="680" MaxWidth="700" />
+                    <DataGridTemplateColumn Header="Dostignuta"  MinWidth="259" MaxWidth="259">
+                        <DataGridTemplateColumn.HeaderStyle>
+                            <Style TargetType="DataGridColumnHeader">
+                                <Setter Property="HorizontalContentAlignment"
+                                        Value="Center" />
+                            </Style>
+                        </DataGridTemplateColumn.HeaderStyle>
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <CheckBox IsChecked="{Binding Reached}" Checked="CheckKeyPoint" />
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+
+
+            <Grid Row="2">
+                <Button  Background="#389BE6" Foreground="White" BorderThickness="3" BorderBrush="Black" 
+                         Click="ShowGuestChecking" Height="48" Width="235" HorizontalAlignment="Left"
+                         Margin="100,0,0,0">
+                    <TextBlock Text="Popiši goste" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+                </Button>
+
+                <Button  Background="Green" FontWeight="DemiBold" Foreground="White"  Margin="0,0,100,0"
+                         Click="EndTourButton" Height="48" Width="230" HorizontalAlignment="Right" BorderBrush="Black" BorderThickness="3">
+                    <TextBlock Text="Završi turu!" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+                </Button>
+            </Grid>
+        </Grid>
+        <Button x:Name="DimmedOverlay" Background="#80000000" Visibility="Collapsed" Click="DimmedOverlay_Click">
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="Button">
+                                <Border Background="{TemplateBinding Background}"
+                                    BorderBrush="{TemplateBinding BorderBrush}"
+                                    BorderThickness="{TemplateBinding BorderThickness}"
+                                    SnapsToDevicePixels="True">
+                                    <ContentPresenter HorizontalAlignment="Center"
+                                                  VerticalAlignment="Center"
+                                                  SnapsToDevicePixels="True" />
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Button.Style>
+        </Button>
+
+        <StackPanel x:Name="NavigationMenu" Orientation="Vertical" Visibility="Collapsed" Background="OrangeRed" Width="358" >
+
+            <StackPanel.Style>
+                <Style>
+                    <Setter Property="Button.HorizontalAlignment" Value="Left"></Setter>
+                    <Setter Property="Button.HorizontalContentAlignment" Value="Left"></Setter>
+                    <Setter Property="Button.Width" Value="Auto"></Setter>
+                    <Setter Property="Button.FontSize" Value="35"></Setter>
+                </Style>
+            </StackPanel.Style>
+            <Label Grid.Row="0" Content="OvoOvo" FontSize="40" HorizontalAlignment="Center" FontWeight="Bold"/>
+            <Button Content="Današnje ture" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Height="59" Width="369" />
+            <Button Content="Moje aktivne ture" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Width="372" />
+            <Button Content="Istorija" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Width="368" />
+            <Button Content="Kreirajte turu" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Width="368" Click="ShowFirstCreateTourView"/>
+            <Button Content="Super vodič" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Width="368" Click="ShowSuperVodic" />
+            <Button Content="Zahtevi za ture" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Width="368" Click="ShowTourRequests" />
+            <Button Content="" IsHitTestVisible="False" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Width="368"  />
+            <Button Content="" IsHitTestVisible="False" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Width="368" Click="ShowSuperVodic" />
+            <Button Content="Odjavi se" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Width="368" Click="SignOut" />
+            <Button Content="" IsHitTestVisible="False" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Width="368"  />
+            <Button Content="" IsHitTestVisible="False" Visibility="Hidden" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Width="368" Click="ShowSuperVodic" />
+            <Button Content="DAJEM OTKAZ" Foreground="Red" FontWeight="Bold" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Width="368"  />
+
+        </StackPanel>
+
+    </Grid>
+</Page>

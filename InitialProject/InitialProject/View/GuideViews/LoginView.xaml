@@ -1,0 +1,39 @@
+﻿<Page x:Class="InitialProject.View.GuideViews.LoginView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:InitialProject.View.GuideViews"
+      mc:Ignorable="d" 
+      Background="White"
+      d:DesignHeight="768" d:DesignWidth="1024" FontSize="40" FontFamily="Robotico">
+    <Grid Margin="0,0,0,88">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"></RowDefinition>
+            <RowDefinition Height="100"></RowDefinition>
+            <RowDefinition Height="79"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto" MinHeight="120"></RowDefinition>
+            <RowDefinition Height="Auto" MinHeight="57"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Label Grid.Row="0" Content="OvoOvo" FontWeight="Bold" FontSize="60" HorizontalAlignment="Right" Margin="0" ></Label>
+        <Label Grid.Row="1" Content="Prijavite se!" FontSize="60" FontWeight="DemiBold" HorizontalAlignment="Center" ></Label>
+        <Label Grid.Row="2" Content="Korisničko ime:"  HorizontalAlignment="Left" VerticalAlignment="Center" Margin="225,0,0,0"  Height="62" ></Label>
+        <TextBox Grid.Row="3" Text="{Binding Path=Username}" Height="54" BorderBrush="Black" BorderThickness="2" TextWrapping="Wrap" VerticalAlignment="Center"  Margin="225,5,248,10"/>
+
+        <Label Grid.Row="4" Content="Lozinka:"  HorizontalAlignment="Left" VerticalAlignment="Center" Margin="225,0,0,0" Height="62" Width="205"></Label>
+        <PasswordBox Grid.Row="5" x:Name="PasswordBox" Height="54" BorderBrush="Black" BorderThickness="2"
+                     VerticalAlignment="Top"  Margin="225,20,248,0" />
+
+        <Button Grid.Row="6" Click="SignIn" Background="Green" Foreground="White"
+                 HorizontalAlignment="Center"  VerticalAlignment="Center" Height="68" Width="208" FontSize="60" BorderThickness="3" FontWeight="DemiBold" BorderBrush="Black">
+            <TextBlock Text="Prijava" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+        </Button>
+
+
+    </Grid>
+</Page>
+
+    

@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="PrintInvoice.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\GuideViews\ActiveToursView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\GuideViews\AddCommentWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\GuideViews\BestTourTimePickerWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\GuideViews\BestTourYearlyView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\GuideViews\CancelTourWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\GuideViews\CommentDialog.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\GuideViews\CommentPopUp.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\GuideViews\ComplexTourRequestView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\GuideViews\ComplexTourSpecificsWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\GuideViews\CreateTourFirstView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\GuideViews\CreateTourSecondView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\GuideViews\CreateTourThirdView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\GuideViews\DatePickerWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\GuideViews\DetailedReviewView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\GuideViews\HomePage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\GuideViews\LiveTourView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\GuideViews\LoginView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\GuideViews\MonthlyRequestsWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\GuideViews\RequestsFilterWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\GuideViews\RequestStatisticsView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\GuideViews\SuperGuideView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\GuideViews\TodayTours.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\GuideViews\TourDescriptionWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\GuideViews\TourDetailsView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\GuideViews\TourHistoryView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\GuideViews\TouristCheckingView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\GuideViews\TouristStatisticsView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\GuideViews\TourRequestsView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\GuideViews\TourReviewsView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Guide\AllTours.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Guide\BestTourStatistics.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Guide\CreateTourForm.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Guide\GuideHistory.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Guide\LiveTour.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Guide\MonthlyRequests.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Guide\ShowTours.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Guide\TourRequestsView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Guide\TourReviews.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Guide\TourStatistics.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\MainWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="DsTour.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="PrintInvoice.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Theme\CenteredCellsTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Theme\DataGridBorders.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Theme\MenuButtonTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Theme\TextBoxTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\GuideViews\ActiveToursView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\GuideViews\AddCommentWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\GuideViews\BestTourTimePickerWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\GuideViews\BestTourYearlyView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\GuideViews\CancelTourWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\GuideViews\CommentDialog.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\GuideViews\CommentPopUp.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\GuideViews\ComplexTourRequestView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\GuideViews\ComplexTourSpecificsWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\GuideViews\CreateTourFirstView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\GuideViews\CreateTourSecondView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\GuideViews\CreateTourThirdView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\GuideViews\DatePickerWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\GuideViews\DetailedReviewView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\GuideViews\HomePage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\GuideViews\LiveTourView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\GuideViews\LoginView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\GuideViews\MonthlyRequestsWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\GuideViews\RequestsFilterWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\GuideViews\RequestStatisticsView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\GuideViews\SuperGuideView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\GuideViews\TodayTours.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\GuideViews\TourDescriptionWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\GuideViews\TourDetailsView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\GuideViews\TourHistoryView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\GuideViews\TouristCheckingView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\GuideViews\TouristStatisticsView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\GuideViews\TourRequestsView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\GuideViews\TourReviewsView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Guide\AllTours.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Guide\BestTourStatistics.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Guide\CreateTourForm.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Guide\GuideHistory.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Guide\LiveTour.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Guide\MonthlyRequests.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Guide\ShowTours.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Guide\TourRequestsView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Guide\TourReviews.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Guide\TourStatistics.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

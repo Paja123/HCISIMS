@@ -1,0 +1,136 @@
+﻿<Page x:Class="InitialProject.View.GuideViews.TourRequestsView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:InitialProject.View.GuideViews"
+      xmlns:fa="http://schemas.fontawesome.io/icons/"
+      mc:Ignorable="d" 
+        Background="White"
+      d:DesignHeight="768" d:DesignWidth="1024" FontSize="40">
+
+    <Grid>
+        <Grid x:Name="MainContent">
+            <Grid.RowDefinitions>
+
+                <RowDefinition Height="110"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="100"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Grid Row="0" RenderTransformOrigin="0.732,0.604" >
+                <Button  Height="68" Width="160"  FontSize="60"  BorderThickness="3" BorderBrush="Black"
+                         HorizontalAlignment="Left" VerticalAlignment="Top"
+                         Background="#D07B26" Foreground="Black"
+                        
+                         Margin="10,10,0,0" Click="HamburgerButton_Click">
+                    <TextBlock Text="Meni" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+                </Button>
+
+                <Label Content="Zahtevi za turu" HorizontalAlignment="Center" VerticalAlignment="Top"
+                   FontSize="60" FontWeight="Bold"/>
+                <!--<Label Content="&#xf05a;" FontFamily="./#Font Awesome 6 Free Solid"
+                   FontSize="40" />
+             
+            <-->
+                <Button Margin="0,0,220,0" Width="60" Height="64" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Right"
+                        Click="ShowPopover">
+                    <fa:FontAwesome Icon="InfoCircle" Foreground="DodgerBlue" FontSize="60"  />
+                </Button>
+
+            </Grid>
+            <ScrollViewer Grid.Row="1">
+                <DataGrid Grid.Row="1" x:Name="DataGridRequests" ItemsSource="{Binding Requests}" SelectionMode="Single"
+                      SelectionChanged="DataGridRequests_SelectionChanged" AutoGenerateColumns="False" IsReadOnly="True" Height="420" FontSize="40"
+                      Margin="15,0,15,0" ColumnWidth="SizeToCells" BorderThickness="2" BorderBrush="Black">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Država" Binding="{Binding Location.Country}"/>
+                        <DataGridTextColumn Header="Grad" Binding="{Binding Location.City}" MinWidth="110"/>
+                        <DataGridTextColumn Header="Jezik" Binding="{Binding Language}" />
+                        <DataGridTextColumn Header="Br. gostiju" Binding="{Binding GuestNumber}" MinWidth="110" />
+                        <DataGridTextColumn Header="Donja granica datuma" Binding="{Binding LowerDateLimit}"/>
+                        <DataGridTextColumn Header="Gornja granica datuma" Binding="{Binding UpperDateLimit}"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </ScrollViewer>
+            <TextBlock Grid.Row="2" FontSize="40" Margin="15,0,0,0">
+                <Run Text="Pogledajte delove" />
+                <Hyperlink Click="Hyperlink_RequestNavigate">zahteva za složene ture</Hyperlink>
+
+            </TextBlock>
+
+            <Grid Row="3" Margin="0,78,0,-88">
+                <Button   Background="Green" Foreground="White"   Click="Button_Click" Width="150" Height="48" BorderThickness="3" BorderBrush="Black"
+                          HorizontalAlignment="Right" Margin="0,0,200,0">
+                    <TextBlock Text="Prihvati" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+                </Button>
+                <Button Background="#389BE6" Foreground="White" Click="Filter" Height="48" Width="134" BorderThickness="3" BorderBrush="Black" Margin="0,0,120,0"  >
+                    <TextBlock Text="Filtiraj" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+                </Button>
+                <Button  Background="Yellow" Foreground="Black"   Click="ShowRequestStatisticsView" Height="48" Width="170"
+                         BorderBrush="Black" BorderThickness="3" HorizontalAlignment="Left" Margin="70,0,0,0">
+                    <TextBlock Text="Statistika" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+                </Button>
+
+            </Grid>
+        </Grid>
+        
+        <Button x:Name="DimmedOverlay" Background="#80000000" Visibility="Collapsed" Click="DimmedOverlay_Click">
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="Button">
+                                <Border Background="{TemplateBinding Background}"
+                                    BorderBrush="{TemplateBinding BorderBrush}"
+                                    BorderThickness="{TemplateBinding BorderThickness}"
+                                    SnapsToDevicePixels="True">
+                                    <ContentPresenter HorizontalAlignment="Center"
+                                                  VerticalAlignment="Center"
+                                                  SnapsToDevicePixels="True" />
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Button.Style>
+        </Button>
+
+        <Popup x:Name="MyPopover" Placement="Relative" VerticalOffset="100" HorizontalOffset="450"  StaysOpen="False">
+            <Grid Background="White" Width="413" Height="308">
+                <Border BorderBrush="Black" BorderThickness="2">
+                    <TextBlock x:Name="TextBlock" TextWrapping="Wrap"/>
+                </Border>
+            </Grid>
+        </Popup>
+        <StackPanel x:Name="NavigationMenu" Orientation="Vertical" Visibility="Collapsed" Background="OrangeRed" Width="358" >
+
+            <StackPanel.Style>
+                <Style>
+                    <Setter Property="Button.HorizontalAlignment" Value="Left"></Setter>
+                    <Setter Property="Button.HorizontalContentAlignment" Value="Left"></Setter>
+                    <Setter Property="Button.Width" Value="Auto"></Setter>
+                    <Setter Property="Button.FontSize" Value="35"></Setter>
+                </Style>
+            </StackPanel.Style>
+            <Label Grid.Row="0"  Content="OvoOvo" FontSize="40" HorizontalAlignment="Center" FontWeight="Bold"/>
+            <Button Content="Današnje ture"  Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Height="59" Width="369" Click="ShowTodaysToursView"  />
+            <Button Content="Moje aktivne ture" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Width="372" Click="ShowActiveTours" />
+            <Button Content="Istorija" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Width="368" Click="ShowHistroy"/>
+            <Button Content="Kreirajte turu" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Width="368" Click="ShowFirstCreateTourView"/>
+            <Button Content="Super vodič" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Width="368" Click="ShowSuperVodic" />
+            <Button Content="Zahtevi za ture" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Width="368" Click="ShowTourRequests" />
+            <Button Content="" IsHitTestVisible="False" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Width="368"  />
+            <Button Content="" IsHitTestVisible="False" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Width="368" Click="ShowSuperVodic" />
+            <Button Content="Odjavi se" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Width="368" Click="SignOut" />
+            <Button Content="" IsHitTestVisible="False" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Width="368"  />
+            <Button Content="" IsHitTestVisible="False" Visibility="Hidden" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Width="368" Click="ShowSuperVodic" />
+            <Button Content="DAJEM OTKAZ" Foreground="Red" FontWeight="Bold" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Width="368" Click="QuitJob" />
+
+        </StackPanel>
+
+        
+
+    </Grid>
+</Page>

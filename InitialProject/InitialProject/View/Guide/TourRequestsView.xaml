@@ -1,0 +1,163 @@
+﻿<Window x:Class="InitialProject.View.Guide.TourRequestsView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:InitialProject.View.Guide"
+        mc:Ignorable="d"
+        Title="TourRequestsView" Height="720" Width="1080">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="320"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="27"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid Row="0">
+            <DataGrid x:Name="DataGridRequests" ItemsSource="{Binding Requests}" SelectionMode="Single" SelectionChanged="DataGridRequests_SelectionChanged" AutoGenerateColumns="False" IsReadOnly="True" Margin="0,10,0,0" VerticalAlignment="Top">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Country" Binding="{Binding Location.Country}"/>
+                    <DataGridTextColumn Header="City" Binding="{Binding Location.City}"/>
+                    <DataGridTextColumn Header="Language" Binding="{Binding Language}"/>
+                    <DataGridTextColumn Header="Number of guests" Binding="{Binding GuestNumber}"/>
+                    <DataGridTextColumn Header="Lower Date Limit" Binding="{Binding LowerDateLimit}"/>
+                    <DataGridTextColumn Header="Upper Date Limit" Binding="{Binding UpperDateLimit}"/>
+                    <DataGridTextColumn Header="Description" Binding="{Binding Description}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+
+        <Button  Grid.Row="1" Click="AcceptRequest" Content="Accept" HorizontalAlignment="Center" Width="78" Margin="0,5,0,5" />
+        <DatePicker Grid.Row ="1" x:Name="DatePicker1" Margin="604,5,322,5" HorizontalContentAlignment="Center"/>
+
+            <Grid Row ="2" Height="100" Margin="0, 0, 0 , 0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100"></ColumnDefinition>
+                <ColumnDefinition Width="100"></ColumnDefinition>
+                <ColumnDefinition Width="110"></ColumnDefinition>
+                <ColumnDefinition Width="100"></ColumnDefinition>
+                <ColumnDefinition Width="120"></ColumnDefinition>
+                <ColumnDefinition Width="120"></ColumnDefinition>
+                <ColumnDefinition Width="100"></ColumnDefinition>
+                <ColumnDefinition Width="100"></ColumnDefinition>
+
+            </Grid.ColumnDefinitions>
+
+            <Label Content="Country: "/>
+            <TextBox Grid.Column="0" x:Name ="Country" Height="25" TextWrapping="Wrap" VerticalAlignment="Center"/>
+
+            <Label Grid.Column="1"  Content="City: "/>
+            <TextBox Grid.Column="1" x:Name ="City" Height="25" TextWrapping="Wrap" VerticalAlignment="Center"/>
+
+            <Label Grid.Column="2"  Content="Number of guests:"/>
+            <TextBox Grid.Column="2" x:Name ="GuestsNumber" Height="25" TextWrapping="Wrap" VerticalAlignment="Center"/>
+
+            <Label Grid.Column="3"  Content="Language:"/>
+            <TextBox Grid.Column="3" x:Name ="Language" Height="25" TextWrapping="Wrap" VerticalAlignment="Center"/>
+
+            <Label Grid.Column="4"  Content="Lower date limit:"/>
+            <DatePicker Grid.Column="4" x:Name ="LowerDateLimit"   Height="25" VerticalAlignment="Center"/>
+
+            <Label Grid.Column="5"  Content="Upper date limit:"/>
+            <DatePicker Grid.Column="5" x:Name ="UpperDateLimit"   Height="25" VerticalAlignment="Center"/>
+
+            <Button  Grid.Column="6" Click="Filter"  Content="Filter" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            <Button  Grid.Column="7" Click="Reset"  Content="Reset" HorizontalAlignment="Center" VerticalAlignment="Center" />
+        </Grid>
+
+        <Grid Row="3"  Margin="10, 0, 0, 0">
+            <Label Grid.Row="0" Content="Statistics:" FontSize="15"></Label>
+        </Grid>
+
+        <Grid Grid.Row="4" Margin="0,5,0,0">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="90"></ColumnDefinition>
+                <ColumnDefinition Width="154"></ColumnDefinition>
+                <ColumnDefinition Width="55"></ColumnDefinition>
+                <ColumnDefinition Width="119"></ColumnDefinition>
+                <ColumnDefinition Width="175"></ColumnDefinition>
+                <ColumnDefinition Width="215"></ColumnDefinition>
+                <ColumnDefinition Width="95"></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Grid Column="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40*"></RowDefinition>
+                    <RowDefinition Height="37*"></RowDefinition>
+                    <RowDefinition Height="38*"></RowDefinition>
+                    <RowDefinition Height="38*"></RowDefinition>
+                </Grid.RowDefinitions>
+
+                <Label Grid.Row="0" Content="Filter by:" HorizontalAlignment="Right" VerticalAlignment="Center"></Label>
+                <Label x:Name="LanguageLabel" Grid.Row="1" Content="language:" HorizontalAlignment="Right" Visibility="Collapsed"></Label>
+
+                <Label x:Name="LocationCountryLabel" Grid.Row="1" Content="country:" HorizontalAlignment="Right" VerticalAlignment="Top" Visibility="Collapsed"></Label>
+                <Label x:Name="LocationCityLabel" Grid.Row="2" Content="city:" HorizontalAlignment="Right" VerticalAlignment="Top" Visibility="Collapsed"></Label>
+
+
+            </Grid>
+
+            <Grid Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40*"></RowDefinition>
+                    <RowDefinition Height="37*"></RowDefinition>
+                    <RowDefinition Height="38*"></RowDefinition>
+                    <RowDefinition Height="38*"></RowDefinition>
+
+                </Grid.RowDefinitions>
+
+                <ComboBox  Name="ComboBox1"  Width="110" Height="20" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10,0,0,0" SelectionChanged="ComboBox1_SelectionChanged">
+                    <ComboBoxItem Content="location"></ComboBoxItem>
+                    <ComboBoxItem Content="language"></ComboBoxItem>
+                </ComboBox>
+
+                <TextBox Grid.Row="1"  x:Name ="InputLanguage" Height="25" Width="110" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalAlignment="Left" Visibility="Collapsed" Margin="0,1,0,0"/>
+
+                <TextBox Grid.Row="1"  x:Name ="InputLocationCountry" Height="25" Width="110" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalAlignment="Left" Visibility="Collapsed" Margin="0,1,0,0"/>
+                <TextBox Grid.Row ="2"  x:Name ="InputLocationCity" Height="25" Width="110" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalAlignment="Left" Visibility="Collapsed" Margin="0,1,0,0"/>
+
+                <Button  Grid.Row="3" x:Name="FilterButton" Click="UpdateYearly" Visibility="Collapsed" Content="Show Yearly" HorizontalAlignment="Center" VerticalAlignment="Center" Height="20" Width="78" />
+
+            </Grid>
+
+
+            <Label Grid.Column="2" Grid.Row="0" Content="Results:"></Label>
+
+            <!--
+            <DataGrid x:Name="YearlyGrid" Grid.Column="3" ItemsSource="{Binding RequestYearlyCounts}"  SelectionMode="Single" AutoGenerateColumns="False" IsReadOnly="True" Margin="10,0,5,0" VerticalAlignment="Top" Height="26">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Year" Binding="{Binding Year}"/>
+                    <DataGridTextColumn Header="Num.Of Requests" Binding="{Binding Count}"/>
+                </DataGrid.Columns>
+            </DataGrid>-->
+            <!--<DataGrid Grid.Column="3" x:Name="YearlyDataGrid" ItemsSource="{Binding RequestYearlyCounts}" SelectionMode="Single" AutoGenerateColumns="False" IsReadOnly="True" Margin="0,10,0,0" VerticalAlignment="Top" Height="26" SelectionChanged="YearlyDataGrid_SelectionChanged">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Year" Binding="{Binding Year}"/>
+                    <DataGridTextColumn Header="Num. of req." Binding="{Binding Count}"/>
+                </DataGrid.Columns>
+            </DataGrid>-->
+            <DataGrid Grid.Column="3" x:Name="YearlyDataGrid" ItemsSource="{Binding RequestYearlyCounts}" SelectionMode="Single" AutoGenerateColumns="False" IsReadOnly="True" Margin="0,10,0,0" VerticalAlignment="Top">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Year" Binding="{Binding Year}"/>
+                    <DataGridTextColumn Header="Num. of req." Binding="{Binding Count}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+
+            <Button  Grid.Column="4" Click="ShowMonthly" Content="View Monthly" HorizontalAlignment="Center" VerticalAlignment="Center" Height="20" Width="78" />
+
+
+            <Label Grid.Column="5" Content="Create new tour for the most popular:" ></Label>
+            <ComboBox Grid.Column="6"  Grid.Row="0"  Name="ComboBox2"  Width="70" Height="20" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,10,0,0">
+                <ComboBoxItem Content="location"></ComboBoxItem>
+                <ComboBoxItem Content="language"></ComboBoxItem>
+            </ComboBox>
+
+            <Button  Grid.Column="7" Click="CreateNewTour" Content="Create tour" HorizontalAlignment="Center" VerticalAlignment="Center" Height="20" Width="78" />
+
+        </Grid>
+    </Grid>
+</Window>

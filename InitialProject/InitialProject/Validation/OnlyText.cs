@@ -1,0 +1,32 @@
+﻿using System;
+using System.Globalization;
+using System.Text.RegularExpressions;
+using System.Windows.Controls;
+
+namespace InitialProject.Validation;
+
+public class OnlyText: ValidationRule
+{
+    public override ValidationResult Validate(object value, CultureInfo cultureInfo)
+    {
+        try
+        {
+            var s = value as string;
+            string pattern = @"\d";
+            string pattern2 = @"[0-9.]";
+
+            // Check if the input string contains any digit
+            bool containsNumbersOrCharacters = Regex.IsMatch(s, pattern) || Regex.IsMatch(s, pattern2);
+
+            if (containsNumbersOrCharacters == false && s.Equals(String.Empty) == false)
+            {
+                return new ValidationResult(true, null);
+            }
+            return new ValidationResult(false, "Please enter a valid double value.");
+        }
+        catch
+        {
+            return new ValidationResult(false, "Unknown error occured.");
+        }
+    }
+}

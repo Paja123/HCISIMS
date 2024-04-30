@@ -1,0 +1,37 @@
+﻿<Page x:Class="InitialProject.View.GuideViews.HomePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:InitialProject.View.GuideViews"
+      mc:Ignorable="d" 
+      d:DesignHeight="760" d:DesignWidth="1080" Background="White" FontSize="40"
+      Title="HomePage">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Label Grid.Row="0" Content="OvoOvo" FontSize="60" FontWeight="Bold" HorizontalAlignment="Right"></Label>
+
+        <Grid Row="1" >
+            <Grid.Background>
+                <ImageBrush ImageSource="C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\Images\back2.jpg" />
+            </Grid.Background>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition Height="330"></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Label Grid.Row="1" Content="Dobro došli u OvoOvo,"  FontWeight="DemiBold" Margin="0,0,0,167" HorizontalAlignment="Center" VerticalAlignment="Top"></Label>
+            <Label Grid.Row =" 1"  Content="najbolju aplikaciju"  FontWeight="DemiBold"  HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,55,0,0"></Label>
+            <Label Grid.Row =" 1"  Content="za turističke vodiče!"  FontWeight="DemiBold" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,113,0,0"></Label>
+            <Button Grid.Row= "1" Background="Green" Foreground="White" BorderThickness="3" BorderBrush="Black" Command="{Binding ShowLoginCommand }" HorizontalAlignment="Center"  VerticalAlignment="Top" Height="70" Margin="0,230,0,0" Width="210" Click="Button_Click">
+                <TextBlock Text="Prijavite se" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+            </Button>
+        </Grid>
+
+    </Grid>
+</Page>

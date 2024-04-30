@@ -1,0 +1,178 @@
+﻿<Page x:Class="InitialProject.View.GuideViews.BestTourYearlyView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:InitialProject.View.GuideViews"
+      xmlns:fa="http://schemas.fontawesome.io/icons/"
+      mc:Ignorable="d" 
+            Background="White"
+      d:DesignHeight="768" d:DesignWidth="1024" FontSize="40" FontFamily="Roboto">
+
+    <Grid>
+        <Grid x:Name="MainContent">
+            <Grid.RowDefinitions>
+
+                <RowDefinition Height="110"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="400"></RowDefinition>
+                <RowDefinition Height="100"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Grid Row="0" RenderTransformOrigin="0.732,0.604" >
+                <Button  Height="68" Width="160"  FontSize="60"  BorderThickness="3" BorderBrush="Black"
+                         HorizontalAlignment="Left" VerticalAlignment="Top"
+                         Background="#D07B26" Foreground="Black"
+                        
+                         Margin="10,10,0,0" Click="HamburgerButton_Click">
+                    <TextBlock Text="Meni" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+                </Button>
+                <Label Content="Statistika o gostima" HorizontalAlignment="Center" VerticalAlignment="Center"
+                   FontSize="60" FontWeight="Bold"></Label>
+
+            </Grid>
+            <Grid Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+
+                <Label Grid.Column="0" Content="Izaberite najbolju turu iz perioda:"   HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10,0,0,0" />
+                <!--Guide history view-->
+                <ComboBox Grid.Column="1" Name="ComboBox1" ItemsSource="{Binding Path=TourYears}" Width="322" Height="54" VerticalAlignment="Top" HorizontalAlignment="Left" SelectionChanged="ComboBox1_SelectionChanged" >
+                    <ComboBox.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Vertical">
+                                <TextBlock Text="{Binding}"></TextBlock>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ComboBox.ItemTemplate>
+                </ComboBox>
+            </Grid>
+
+            <Grid Row="2" Margin="60,80,2,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <Grid Column="0" Row="0" Margin="0,20,0,20">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition  Width="Auto"/>
+                        <ColumnDefinition Width="110"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Column="0"  Content="Mlađi:"   HorizontalAlignment="Center" VerticalAlignment="Center" />
+                    <Label Grid.Column="1" x:Name="young" Content="{Binding BestTour.TotalYouth}"   HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10,0,0,0" Width="72"/>
+
+                </Grid>
+                <Grid Column="0" Row="1" Margin="0,0,0,20">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition  Width="Auto"/>
+                        <ColumnDefinition Width="110"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Column="0"  Content="Sredovečni:"   HorizontalAlignment="Center" VerticalAlignment="Center" />
+                    <Label Grid.Column="1"  x:Name="mid" Content="{Binding BestTour.TotalMiddleAged}"   HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10,0,0,0" Width="72"/>
+
+                </Grid>
+                <Grid Column="0" Row="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition  Width="Auto"/>
+                        <ColumnDefinition Width="110"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Column="0"  Content="Stariji:"   HorizontalAlignment="Center" VerticalAlignment="Center" />
+                    <Label Grid.Column="1"  x:Name="old" Content="{Binding BestTour.TotalOld}"   HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10,0,0,0" Width="72"/>
+
+                </Grid>
+
+                <Label Grid.Column="1" Content="Procenat gostiju:"   HorizontalAlignment="Left" VerticalAlignment="Center" Margin="00,0,0,0" Width="Auto"/>
+
+                <Grid Column="1" Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition  Width="Auto"/>
+                        <ColumnDefinition Width="110"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Column="0"  Content="sa vaučerom: " HorizontalAlignment="Center" VerticalAlignment="Center"  />
+                    <Label Grid.Column="1"  x:Name="WithVoucher"   HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10,0,0,0" Width="72"/>
+
+                </Grid>
+                <Grid Column="1" Row="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition  Width="Auto"/>
+                        <ColumnDefinition Width="110"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Column="0"  Content="bez vaučera: "   HorizontalAlignment="Center" VerticalAlignment="Center"  />
+                    <Label Grid.Column="1"  x:Name="WithOutVoucher"  HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10,0,0,0" Width="72"/>
+
+                </Grid>
+
+
+
+
+
+            </Grid>
+
+
+            <Grid Row="3" Margin="0,0,0,-58" >
+                <Button  Background="#FF2E2E" Foreground="White" BorderThickness="3" BorderBrush="Black"
+                        HorizontalAlignment="Left" Margin="62,0,0,0"
+                        Width="141" Height="48">
+                    <TextBlock Text="Nazad"></TextBlock>
+                </Button>
+                
+            </Grid>
+        </Grid>
+        <Button x:Name="DimmedOverlay" Background="#80000000" Visibility="Collapsed" >
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="Button">
+                                <Border Background="{TemplateBinding Background}"
+                                    BorderBrush="{TemplateBinding BorderBrush}"
+                                    BorderThickness="{TemplateBinding BorderThickness}"
+                                    SnapsToDevicePixels="True">
+                                    <ContentPresenter HorizontalAlignment="Center"
+                                                  VerticalAlignment="Center"
+                                                  SnapsToDevicePixels="True" />
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Button.Style>
+        </Button>
+
+        <StackPanel x:Name="NavigationMenu" Orientation="Vertical" Visibility="Collapsed" Background="OrangeRed" Width="358" >
+
+            <StackPanel.Style>
+                <Style>
+                    <Setter Property="Button.HorizontalAlignment" Value="Left"></Setter>
+                    <Setter Property="Button.HorizontalContentAlignment" Value="Left"></Setter>
+                    <Setter Property="Button.Width" Value="Auto"></Setter>
+                    <Setter Property="Button.FontSize" Value="35"></Setter>
+                </Style>
+            </StackPanel.Style>
+            <Label Grid.Row="0" Content="OvoOvo" FontSize="40" HorizontalAlignment="Center" FontWeight="Bold"/>
+            <Button Content="Današnje ture" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}"  Height="59" Width="369" Click="ShowTodayTours" />
+            <Button Content="Moje aktivne ture" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Click="ShowActiveTours" Width="372"/>
+            <Button Content="Istorija" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Width="368" Click="ShowHistoryView"/>
+            <Button Content="Kreirajte turu" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Width="368" Click="ShowFirstCreateTourView"/>
+            <Button Content="Super vodič" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Width="368" Click="ShowSuperVodic" />
+            <Button Content="Zahtevi za ture" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Width="368" Click="ShowTourRequests" />
+            <Button Content="" IsHitTestVisible="False" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Width="368"  />
+            <Button Content="" IsHitTestVisible="False" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Width="368" Click="ShowSuperVodic" />
+            <Button Content="Odjavi se" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Width="368" Click="SignOut" />
+            <Button Content="" IsHitTestVisible="False" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Width="368"  />
+            <Button Content="" IsHitTestVisible="False" Visibility="Hidden" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Width="368" Click="ShowSuperVodic" />
+            <Button Content="DAJEM OTKAZ" Foreground="Red" FontWeight="Bold" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Width="368" Click="QuitJob" />
+
+        </StackPanel>
+
+    </Grid>
+</Page>

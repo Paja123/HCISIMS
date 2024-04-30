@@ -1,0 +1,593 @@
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\Resources\Images\add.png
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\Resources\Images\delete.png
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\Resources\Images\edit.png
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\Resources\Images\view.png
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\DemoDB.db
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\InitialProject.exe
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\InitialProject.deps.json
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\InitialProject.runtimeconfig.json
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\InitialProject.dll
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\InitialProject.pdb
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\InitialProject.csproj.AssemblyReference.cache
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\CommentForm.g.cs
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\CommentsOverview.g.cs
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\SignInForm.g.cs
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\InitialProject_Content.g.cs
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\InitialProject_MarkupCompile.cache
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\InitialProject_MarkupCompile.lref
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\CommentForm.baml
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\CommentsOverview.baml
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\SignInForm.baml
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\InitialProject.g.resources
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\InitialProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\InitialProject.AssemblyInfoInputs.cache
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\InitialProject.AssemblyInfo.cs
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\InitialProject.csproj.CoreCompileInputs.cache
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\InitialProject.dll
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\refint\InitialProject.dll
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\InitialProject.pdb
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\InitialProject.genruntimeconfig.cache
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\ref\InitialProject.dll
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\Humanizer.dll
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.Data.Sqlite.dll
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\SQLitePCLRaw.core.dll
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\linux-s390x\native\libe_sqlite3.so
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\osx-arm64\native\libe_sqlite3.dylib
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\Pavle\Desktop\simsoni\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\InitialProject.csproj.CopyComplete
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\Resources\Images\add.png
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\Resources\Images\delete.png
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\Resources\Images\edit.png
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\Resources\Images\view.png
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\InitialProject.exe
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\InitialProject.deps.json
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\InitialProject.runtimeconfig.json
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\InitialProject.dll
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\InitialProject.pdb
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\Humanizer.dll
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.Data.Sqlite.dll
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\SQLitePCLRaw.core.dll
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\linux-s390x\native\libe_sqlite3.so
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\osx-arm64\native\libe_sqlite3.dylib
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\InitialProject.csproj.AssemblyReference.cache
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\CommentForm.g.cs
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\CommentsOverview.g.cs
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\SignInForm.g.cs
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\InitialProject_Content.g.cs
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\InitialProject_MarkupCompile.cache
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\InitialProject_MarkupCompile.lref
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\CommentForm.baml
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\CommentsOverview.baml
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\SignInForm.baml
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\InitialProject.g.resources
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\InitialProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\InitialProject.AssemblyInfoInputs.cache
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\InitialProject.AssemblyInfo.cs
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\InitialProject.csproj.CoreCompileInputs.cache
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\InitialProject.csproj.CopyComplete
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\InitialProject.dll
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\refint\InitialProject.dll
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\InitialProject.pdb
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\InitialProject.genruntimeconfig.cache
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\ref\InitialProject.dll
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guest1\AccommodationReservate.g.cs
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guest1\EditReservation.g.cs
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guest1\Guest1.g.cs
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guest1\AccommodationReservate.baml
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guest1\EditReservation.baml
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guest1\Guest1.baml
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guest1\RateAccommodation.g.cs
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guest1\RateAccommodation.baml
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Tourist\Guest2View.g.cs
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Tourist\VoucherViewPage.g.cs
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Tourist\Guest2View.baml
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Tourist\VoucherViewPage.baml
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Owner\AccommodationRegister.g.cs
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Owner\GuestReview.g.cs
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Owner\Notifications.g.cs
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Owner\Owner.g.cs
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Owner\OwnerReviews.g.cs
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Owner\ReschedulingRequestsHandler.g.cs
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Owner\AccommodationRegister.baml
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Owner\GuestReview.baml
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Owner\Notifications.baml
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Owner\Owner.baml
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Owner\OwnerReviews.baml
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Owner\ReschedulingRequestsHandler.baml
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Tourist\GradeTour.g.cs
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Tourist\KeyPointView.g.cs
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Tourist\GradeTour.baml
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Tourist\KeyPointView.baml
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guide\AllTours.g.cs
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guide\BestTourStatistics.g.cs
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guide\CreateTourForm.g.cs
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guide\GuideHistory.g.cs
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guide\LiveTour.g.cs
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guide\ShowTours.g.cs
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guide\TourReviews.g.cs
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guide\TourStatistics.g.cs
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guide\AllTours.baml
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guide\BestTourStatistics.baml
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guide\CreateTourForm.baml
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guide\GuideHistory.baml
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guide\LiveTour.baml
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guide\ShowTours.baml
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guide\TourReviews.baml
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guide\TourStatistics.baml
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guide\TourRequestsView.g.cs
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guide\TourRequestsView.baml
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guide\MonthlyRequests.g.cs
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guide\MonthlyRequests.baml
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guest1\RenovationRecommendation.g.cs
+C:\Users\Pavle\Desktop\HCI-SIMS\SIMS-Initial-Project-main\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guest1\RenovationRecommendation.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\Resources\Images\add.png
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\Resources\Images\delete.png
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\Resources\Images\edit.png
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\Resources\Images\view.png
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\InitialProject.exe
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\InitialProject.deps.json
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\InitialProject.runtimeconfig.json
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\InitialProject.dll
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\InitialProject.pdb
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\FontAwesome.WPF.dll
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\HarfBuzzSharp.dll
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\Humanizer.dll
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.Data.Sqlite.dll
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\QuestPDF.dll
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\SkiaSharp.dll
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\SkiaSharp.HarfBuzz.dll
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\SQLitePCLRaw.core.dll
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\osx\native\libHarfBuzzSharp.dylib
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\win-arm64\native\libHarfBuzzSharp.dll
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\win-x64\native\libHarfBuzzSharp.dll
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\win-x86\native\libHarfBuzzSharp.dll
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\osx\native\libSkiaSharp.dylib
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\win-arm64\native\libSkiaSharp.dll
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\win-x64\native\libSkiaSharp.dll
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\win-x86\native\libSkiaSharp.dll
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\linux-x64\native\libsqlite3.so
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\osx-x64\native\libsqlite3.dylib
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\win7-x64\native\sqlite3.dll
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\win7-x86\native\sqlite3.dll
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\linux-s390x\native\libe_sqlite3.so
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\osx-arm64\native\libe_sqlite3.dylib
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\InitialProject.csproj.AssemblyReference.cache
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\Theme\CenteredCellsTheme.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\Theme\DataGridBorders.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\Theme\MenuButtonTheme.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\Theme\TextBoxTheme.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\CommentForm.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\CommentsOverview.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guest1\AccommodationReservate.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guest1\EditReservation.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guest1\Guest1.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guest1\RateAccommodation.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guest1\RenovationRecommendation.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\ActiveToursView.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\AddCommentWindow.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\BestTourYearlyView.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\CommentDialog.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\CommentPopUp.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\ComplexTourRequestView.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\ComplexTourSpecificsWindow.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\CreateTourFirstView.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\CreateTourSecondView.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\CreateTourThirdView.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\DatePickerWindow.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\DetailedReviewView.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\HomePage.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\LiveTourView.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\LoginView.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\MonthlyRequestsWindow.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\RequestsFilterWindow.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\RequestStatisticsView.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\TodayTours.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\TourDescriptionWindow.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\TourDetailsView.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\TourHistoryView.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\TouristCheckingView.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\TouristStatisticsView.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\TourRequestsView.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\TourReviewsView.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guide\AllTours.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guide\BestTourStatistics.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guide\CreateTourForm.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guide\GuideHistory.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guide\LiveTour.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guide\MonthlyRequests.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guide\ShowTours.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guide\TourRequestsView.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guide\TourReviews.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guide\TourStatistics.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\MainWindow.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Owner\AccommodationRegister.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Owner\GuestReview.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Owner\Notifications.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Owner\Owner.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Owner\OwnerReviews.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Owner\ReschedulingRequestsHandler.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\SignInForm.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Tourist\GradeTour.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Tourist\Guest2View.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Tourist\KeyPointView.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Tourist\VoucherViewPage.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\InitialProject_Content.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\InitialProject_MarkupCompile.cache
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\InitialProject_MarkupCompile.lref
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\App.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\CommentForm.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\CommentsOverview.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guest1\AccommodationReservate.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guest1\EditReservation.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guest1\Guest1.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guest1\RateAccommodation.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guest1\RenovationRecommendation.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\ActiveToursView.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\AddCommentWindow.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\BestTourYearlyView.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\CommentDialog.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\CommentPopUp.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\ComplexTourRequestView.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\ComplexTourSpecificsWindow.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\CreateTourFirstView.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\CreateTourSecondView.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\CreateTourThirdView.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\DatePickerWindow.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\DetailedReviewView.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\HomePage.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\LiveTourView.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\LoginView.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\MonthlyRequestsWindow.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\RequestsFilterWindow.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\RequestStatisticsView.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\TodayTours.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\TourDescriptionWindow.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\TourDetailsView.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\TourHistoryView.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\TouristCheckingView.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\TouristStatisticsView.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\TourRequestsView.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\TourReviewsView.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guide\AllTours.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guide\BestTourStatistics.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guide\CreateTourForm.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guide\GuideHistory.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guide\LiveTour.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guide\MonthlyRequests.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guide\ShowTours.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guide\TourRequestsView.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guide\TourReviews.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guide\TourStatistics.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\MainWindow.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Owner\AccommodationRegister.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Owner\GuestReview.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Owner\Notifications.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Owner\Owner.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Owner\OwnerReviews.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Owner\ReschedulingRequestsHandler.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\SignInForm.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Tourist\GradeTour.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Tourist\Guest2View.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Tourist\KeyPointView.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Tourist\VoucherViewPage.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\InitialProject.g.resources
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\InitialProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\InitialProject.AssemblyInfoInputs.cache
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\InitialProject.AssemblyInfo.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\InitialProject.csproj.CoreCompileInputs.cache
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\InitialProject.csproj.CopyComplete
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\InitialProject.dll
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\refint\InitialProject.dll
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\InitialProject.pdb
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\InitialProject.genruntimeconfig.cache
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\ref\InitialProject.dll
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\MaterialDesignColors.dll
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\PrintInvoice.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\PrintInvoice.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\Material.Icons.dll
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\Material.Icons.WPF.dll
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\BestTourTimePickerWindow.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\BestTourTimePickerWindow.baml
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\SuperGuideView.g.cs
+C:\Users\Pavle\Desktop\HCI PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\SuperGuideView.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\Resources\Images\add.png
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\Resources\Images\delete.png
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\Resources\Images\edit.png
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\Resources\Images\view.png
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\InitialProject.exe
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\InitialProject.deps.json
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\InitialProject.runtimeconfig.json
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\InitialProject.dll
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\InitialProject.pdb
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\FontAwesome.WPF.dll
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\HarfBuzzSharp.dll
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\Humanizer.dll
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\Material.Icons.dll
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\Material.Icons.WPF.dll
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\MaterialDesignColors.dll
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.Data.Sqlite.dll
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\QuestPDF.dll
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\SkiaSharp.dll
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\SkiaSharp.HarfBuzz.dll
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\SQLitePCLRaw.core.dll
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\osx\native\libHarfBuzzSharp.dylib
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\win-arm64\native\libHarfBuzzSharp.dll
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\win-x64\native\libHarfBuzzSharp.dll
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\win-x86\native\libHarfBuzzSharp.dll
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\osx\native\libSkiaSharp.dylib
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\win-arm64\native\libSkiaSharp.dll
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\win-x64\native\libSkiaSharp.dll
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\win-x86\native\libSkiaSharp.dll
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\linux-x64\native\libsqlite3.so
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\osx-x64\native\libsqlite3.dylib
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\win7-x64\native\sqlite3.dll
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\win7-x86\native\sqlite3.dll
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\linux-s390x\native\libe_sqlite3.so
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\osx-arm64\native\libe_sqlite3.dylib
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\bin\Debug\net6.0-windows\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\InitialProject.csproj.AssemblyReference.cache
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\Theme\CenteredCellsTheme.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\Theme\DataGridBorders.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\Theme\MenuButtonTheme.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\Theme\TextBoxTheme.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\PrintInvoice.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\CommentForm.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\CommentsOverview.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guest1\AccommodationReservate.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guest1\EditReservation.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guest1\Guest1.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guest1\RateAccommodation.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guest1\RenovationRecommendation.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\ActiveToursView.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\AddCommentWindow.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\BestTourTimePickerWindow.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\BestTourYearlyView.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\CancelTourWindow.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\CommentDialog.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\CommentPopUp.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\ComplexTourRequestView.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\ComplexTourSpecificsWindow.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\CreateTourFirstView.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\CreateTourSecondView.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\CreateTourThirdView.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\DatePickerWindow.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\DetailedReviewView.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\HomePage.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\LiveTourView.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\LoginView.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\MonthlyRequestsWindow.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\RequestsFilterWindow.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\RequestStatisticsView.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\SuperGuideView.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\TodayTours.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\TourDescriptionWindow.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\TourDetailsView.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\TourHistoryView.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\TouristCheckingView.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\TouristStatisticsView.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\TourRequestsView.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\TourReviewsView.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guide\AllTours.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guide\BestTourStatistics.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guide\CreateTourForm.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guide\GuideHistory.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guide\LiveTour.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guide\MonthlyRequests.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guide\ShowTours.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guide\TourRequestsView.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guide\TourReviews.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guide\TourStatistics.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\MainWindow.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Owner\AccommodationRegister.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Owner\GuestReview.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Owner\Notifications.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Owner\Owner.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Owner\OwnerReviews.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Owner\ReschedulingRequestsHandler.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\SignInForm.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Tourist\GradeTour.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Tourist\Guest2View.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Tourist\KeyPointView.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Tourist\VoucherViewPage.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\InitialProject_Content.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\InitialProject_MarkupCompile.cache
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\InitialProject_MarkupCompile.lref
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\App.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\PrintInvoice.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\CommentForm.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\CommentsOverview.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guest1\AccommodationReservate.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guest1\EditReservation.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guest1\Guest1.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guest1\RateAccommodation.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guest1\RenovationRecommendation.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\ActiveToursView.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\AddCommentWindow.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\BestTourTimePickerWindow.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\BestTourYearlyView.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\CancelTourWindow.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\CommentDialog.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\CommentPopUp.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\ComplexTourRequestView.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\ComplexTourSpecificsWindow.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\CreateTourFirstView.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\CreateTourSecondView.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\CreateTourThirdView.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\DatePickerWindow.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\DetailedReviewView.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\HomePage.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\LiveTourView.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\LoginView.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\MonthlyRequestsWindow.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\RequestsFilterWindow.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\RequestStatisticsView.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\SuperGuideView.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\TodayTours.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\TourDescriptionWindow.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\TourDetailsView.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\TourHistoryView.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\TouristCheckingView.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\TouristStatisticsView.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\TourRequestsView.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\GuideViews\TourReviewsView.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guide\AllTours.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guide\BestTourStatistics.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guide\CreateTourForm.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guide\GuideHistory.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guide\LiveTour.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guide\MonthlyRequests.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guide\ShowTours.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guide\TourRequestsView.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guide\TourReviews.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Guide\TourStatistics.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\MainWindow.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Owner\AccommodationRegister.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Owner\GuestReview.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Owner\Notifications.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Owner\Owner.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Owner\OwnerReviews.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Owner\ReschedulingRequestsHandler.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\SignInForm.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Tourist\GradeTour.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Tourist\Guest2View.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Tourist\KeyPointView.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\View\Tourist\VoucherViewPage.baml
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\InitialProject.g.resources
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\InitialProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\InitialProject.AssemblyInfoInputs.cache
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\InitialProject.AssemblyInfo.cs
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\InitialProject.csproj.CoreCompileInputs.cache
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\InitialProject.csproj.CopyComplete
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\InitialProject.dll
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\refint\InitialProject.dll
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\InitialProject.pdb
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\InitialProject.genruntimeconfig.cache
+C:\Users\Pavle\Desktop\HCI_PROJEKAT\InitialProject\InitialProject\obj\Debug\net6.0-windows\ref\InitialProject.dll
